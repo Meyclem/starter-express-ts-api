@@ -1,4 +1,4 @@
-import testFunction from "../src/index";
+import testFunction from "../../src/utils";
 
 describe("Check up test", () => {
   describe("#testFunction", () => {
