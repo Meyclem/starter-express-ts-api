@@ -2,11 +2,11 @@
   "name": "starter-express-ts-api",
   "version": "0.0.1",
   "main": "src/index.ts",
-  "license": "MIT",
+  "license": "WTFPL",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --ignore-pattern '**.config.js' --fix",
+    "lint": "eslint . --ignore-pattern '**.config.{js,cjs}' --fix",
     "start": "nodemon --ext ts,js src/index.ts",
     "test:unit": "jest ./tests/unit",
     "test:integration": "jest ./tests/integration",

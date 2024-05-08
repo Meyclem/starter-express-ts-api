@@ -1,5 +1,5 @@
 [![CI testing](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml)
-starter-express-ts-api
+
 # [starter] Express TypeScript API
 
 This is a bare simple boilerplate. Feel free to clone it and use it as you want.
@@ -18,7 +18,7 @@ It comes with some packages pre-installed:
 - [express](https://expressjs.com/)
 - [nodemon](https://nodemon.io/)
 - [helmet](https://helmetjs.github.io/)
-
+- [morgan](https://github.com/expressjs/morgan)
 
 ## Usage
 
@@ -30,6 +30,7 @@ The boilerplate uses:
 - yarn `1.22.19`
 
 In case you don't have them install, you can
+
 - use [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) which will install the right versions based on the `.tool-versions` file.
 - head to the [nodejs](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install) websites to install them manually.
 
