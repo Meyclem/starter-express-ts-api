@@ -1,8 +1,8 @@
 [![CI testing](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml)
+starter-express-ts-api
+# [starter] Express TypeScript API
 
-# [starter] TypeScript NodeJS
-
-This is a bare simple TS boilerplate. Feel free to clone it and use it as you want.
+This is a bare simple boilerplate. Feel free to clone it and use it as you want.
 You can also click on the `Use this template` button to create a new repo with the same structure.
 
 In any case, feel free to use it as you want 😁👍
