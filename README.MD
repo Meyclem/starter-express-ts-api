@@ -15,6 +15,10 @@ It comes with some packages pre-installed:
 - [eslint](https://eslint.org/)
 - [prettier](https://prettier.io/)
 - [jest](https://jestjs.io/)
+- [express](https://expressjs.com/)
+- [nodemon](https://nodemon.io/)
+- [helmet](https://helmetjs.github.io/)
+
 
 ## Usage
 
@@ -28,6 +32,18 @@ The boilerplate uses:
 In case you don't have them install, you can
 - use [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) which will install the right versions based on the `.tool-versions` file.
 - head to the [nodejs](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install) websites to install them manually.
+
+Create a `.env` file at the root of the project with the following command:
+
+```bash
+cp -n .env.example .env
+```
+
+Then install the dependencies:
+
+```bash
+yarn install
+```
 
 ### Code sample
 
