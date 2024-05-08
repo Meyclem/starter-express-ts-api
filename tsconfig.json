@@ -2,8 +2,9 @@
   "compilerOptions": {
     "lib": ["es5", "es6", "ESNext", "DOM"],
     "target": "es5",
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "outDir": "./build",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
