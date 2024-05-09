@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --ignore-pattern '**.config.{js,cjs}' --fix",
+    "lint": "eslint . --ignore-pattern '**.config.{js,cjs}' --ignore-pattern 'build' --fix",
     "start": "tsx watch src/index.ts",
     "test:unit": "jest ./tests/unit",
     "test:integration": "jest ./tests/integration",
@@ -17,7 +17,7 @@
     "@stylistic/eslint-plugin-ts": "2.0.0",
     "@types/cors": "2.8.17",
     "@types/express": "4.17.21",
-    "@types/jest": "29.5.12",
+    "@types/jest": "^29.5.12",
     "@types/morgan": "1.9.9",
     "@types/node": "20.12.11",
     "@types/supertest": "6.0.2",
