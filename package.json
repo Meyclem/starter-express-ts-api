@@ -5,7 +5,7 @@
   "license": "WTFPL",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf build && tsc",
     "lint": "eslint . --ignore-pattern '**.config.{js,cjs}' --ignore-pattern 'build' --fix",
     "start": "tsx watch src/index.ts",
     "test:unit": "jest ./tests/unit",
