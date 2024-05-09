@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["es5", "es6", "ESNext", "DOM"],
-    "target": "es5",
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "lib": ["ESNext"],
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
+    "types": ["node", "jest"],
     "outDir": "./build",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -12,5 +13,5 @@
     "strict": true
   },
   "include": ["**/*"],
-  "exclude": ["./build", "node_modules"]
+  "exclude": ["./build", "node_modules", "tests"]
 }
