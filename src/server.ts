@@ -14,7 +14,7 @@ app.use((request: Request, response: Response, next) => {
   next();
 });
 
-app.get("/_healtz", (request: Request, response: Response) => {
+app.get("/_healthz", (request: Request, response: Response) => {
   response.status(200).send({ message: "OK" });
 });
 

@@ -1,9 +1,9 @@
 import request from "supertest";
 import app from "../../src/server";
 
-describe("GET /_healtz", () => {
+describe("GET /_healthz", () => {
   it("should return 200 OK", async () => {
-    const res = await request(app).get("/_healtz");
+    const res = await request(app).get("/_healthz");
     expect(res.statusCode).toEqual(200);
     expect(res.body).toEqual({ message: "OK" });
   });
