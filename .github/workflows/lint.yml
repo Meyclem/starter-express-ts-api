@@ -1,8 +1,10 @@
-name: Lint
+name: Lint & Build
 
 on:
-  - pull_request
-  - push
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
 
 jobs:
   lint:
@@ -33,3 +35,6 @@ jobs:
 
       - name: Run lint
         run: yarn lint
+
+      - name: Build test
+        run: yarn build

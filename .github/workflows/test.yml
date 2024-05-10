@@ -1,8 +1,10 @@
 name: CI testing
 
 on:
-  - pull_request
-  - push
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
 
 jobs:
   test:

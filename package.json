@@ -6,10 +6,11 @@
   "type": "module",
   "scripts": {
     "build": "rm -rf build && tsc",
+    "dev": "tsx watch src/index.ts",
     "lint": "eslint . --ignore-pattern '**.config.{js,cjs}' --ignore-pattern 'build' --fix",
-    "start": "tsx watch src/index.ts",
-    "test:unit": "jest ./tests/unit",
+    "start": "node build/index.js",
     "test:integration": "jest ./tests/integration",
+    "test:unit": "jest ./tests/unit",
     "test": "yarn test:unit && yarn test:integration"
   },
   "devDependencies": {
