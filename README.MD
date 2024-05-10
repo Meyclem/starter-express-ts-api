@@ -1,4 +1,5 @@
-[![CI testing](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml)
+[![🧪 Test](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml)
+[![🔬 Lint & Build](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/test.yml/badge.svg)](https://github.com/Meyclem/typescript-boilerplate/actions/workflows/lint.yml)
 
 # [starter] Express TypeScript API
 
@@ -46,17 +47,24 @@ Then install the dependencies:
 yarn install
 ```
 
-### Code sample
+### Codebase
 
-The repo has some files that should be removed or changed at cloning time:
+There a few files you might want to look at:
 
-- [.github/dependabot.yml](.github/dependabot.yml)
-- [src/index.ts](src/index.ts)
-- [tests/checkup.test.ts](tests/checkup.test.ts)
+- [.github/dependabot.yml](.github/dependabot.yml): change the schedule to fit your needs and don't forget to change my name by yours 😉
+- [.github/lint.yml](.github/lint.yml): the linter and build workflow for Github Actions.
+- [.github/test.yml](.github/test.yml): the test workflow for Github Actions.
+- [src/index.ts](src/index.ts): the main file of the repository.
+- [src/utils/index.ts](src/utils/index.ts): a simple `testFunction` just to check if the tests are working.
+- [tests/checkup.test.ts](tests/checkup.test.ts): a simple test to check if the CI is working and Dependabot'PRs are ok to merge.
 
 ### Start the main file
 
 ```bash
+## In local development mode
+yarn dev
+
+## In production mode
 yarn start
 ```
 
@@ -80,4 +88,18 @@ yarn lint
 
 ```bash
 yarn test
+```
+
+You can also separate the tests in two parts:
+
+- Unit tests
+
+```bash
+yarn test:unit
+```
+
+- Integration tests
+
+```bash
+yarn test:integration
 ```
