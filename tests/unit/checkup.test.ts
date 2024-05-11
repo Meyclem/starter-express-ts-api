@@ -1,3 +1,4 @@
+import { describe, expect, it } from "vitest";
 import testFunction from "../../src/utils";
 
 describe("Check up test", () => {
