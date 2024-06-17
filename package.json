@@ -14,7 +14,7 @@
     "test": "yarn test:unit && yarn test:integration"
   },
   "devDependencies": {
-    "@eslint/js": "9.4.0",
+    "@eslint/js": "9.5.0",
     "@stylistic/eslint-plugin-ts": "2.2.0",
     "@types/cors": "2.8.17",
     "@types/express": "4.17.21",
