@@ -449,10 +449,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.17.2.tgz#5a2d08b81e8064b34242d5cc9973ef8dd1e60503"
   integrity sha512-TGGO7v7qOq4CYmSBVEYpI1Y5xDuCEnbVC5Vth8mOsW0gDSzxNrVERPc790IGHsrT2dQSimgMr9Ub3Y1Jci5/8w==
 
-"@stylistic/eslint-plugin-ts@2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-2.7.1.tgz#b4fc4ec69c6150c3744b900ceec4c51418708b2a"
-  integrity sha512-pjqpqQ++xYAKvjsKJXUeLrbrkySkv2uT8BN/XRZHvZinb6XL4Dv2o3zHypKdmMANoZiAANwvLYcKoAmETVbxGw==
+"@stylistic/eslint-plugin-ts@2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-2.7.2.tgz#6ba5229f819e07bf7e0b84167f3ca8a337901e1f"
+  integrity sha512-uf3hmqWLK1upUnTmUSn4XDvNu1o6b1nY+xdema8dGGY+zH663V+0cHN3xqexDuQ8do1f0wV3hChkfmz3jWC4Uw==
   dependencies:
     "@types/eslint" "^9.6.1"
     "@typescript-eslint/utils" "^8.3.0"
