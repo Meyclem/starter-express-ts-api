@@ -1,0 +1,33 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+version: 2
+# registries:
+#   npm-adeo-jfrog:
+#     type: npm-registry
+#     url: https://adeo.jfrog.io/adeo/api/npm/npm/
+#     token: ${{ secrets.ARTIFACTORY_TOKEN }}
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    registries: "*"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "@ghost"
+    groups:
+      eslint-dependencies:
+        patterns:
+          - "*eslint*"
+      adeo-dependencies:
+        patterns:
+          - "*adeo*"
+      other-dev-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*" # Captures all remaining dev dependencies
+      other-prod-dependencies:
+        dependency-type: "production"
+        patterns:
+        - "*" # Captures all remaining prod dependencies

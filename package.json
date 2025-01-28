@@ -1,0 +1,47 @@
+{
+  "name": "express-api",
+  "version": "0.0.1",
+  "main": "src/main.ts",
+  "license": "WTFPL",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "dev": "tsx watch src/main.ts",
+    "lint": "eslint . --ignore-pattern '**.config.{js,cjs}' --ignore-pattern 'dist' --fix",
+    "oa:generate": "openapi-typescript ./src/api/pet-store/pet-store.yml -o ./src/api/types/pet-store.d.ts",
+    "start": "node dist/main.js",
+    "test:dev": "vitest --coverage",
+    "test": "vitest run --coverage"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "helmet": "8.0.0",
+    "morgan": "1.10.0",
+    "openapi-typescript": "7.5.2",
+    "supertest": "7.0.0",
+    "winston": "3.17.0",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.17.0",
+    "@stylistic/eslint-plugin": "2.12.1",
+    "@types/cors": "2.8.17",
+    "@types/eslint__js": "8.42.3",
+    "@types/express": "5.0.0",
+    "@types/morgan": "1.9.9",
+    "@types/node": "22.10.5",
+    "@types/supertest": "6.0.2",
+    "@typescript-eslint/eslint-plugin": "8.19.1",
+    "@typescript-eslint/parser": "8.19.1",
+    "@vitest/coverage-v8": "2.1.8",
+    "eslint": "9.17.0",
+    "eslint-plugin-import": "2.31.0",
+    "globals": "15.14.0",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.19.1",
+    "vitest": "2.1.8"
+  }
+}
