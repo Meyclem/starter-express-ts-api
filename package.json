@@ -17,12 +17,12 @@
     "cors": "2.8.5",
     "dotenv": "16.4.7",
     "express": "4.21.2",
-    "helmet": "8.0.0",
+    "helmet": "8.1.0",
     "morgan": "1.10.0",
-    "openapi-typescript": "7.5.2",
-    "supertest": "7.0.0",
+    "openapi-typescript": "7.6.1",
+    "supertest": "7.1.0",
     "winston": "3.17.0",
-    "zod": "3.24.1"
+    "zod": "3.24.2"
   },
   "devDependencies": {
     "@eslint/js": "9.17.0",
