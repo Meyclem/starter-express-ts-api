@@ -16,20 +16,20 @@
   "dependencies": {
     "cors": "2.8.5",
     "dotenv": "16.4.7",
-    "express": "4.21.2",
-    "helmet": "8.0.0",
+    "express": "5.1.0",
+    "helmet": "8.1.0",
     "morgan": "1.10.0",
-    "openapi-typescript": "7.5.2",
-    "supertest": "7.0.0",
+    "openapi-typescript": "7.6.1",
+    "supertest": "7.1.0",
     "winston": "3.17.0",
-    "zod": "3.24.1"
+    "zod": "3.24.2"
   },
   "devDependencies": {
     "@eslint/js": "9.17.0",
     "@stylistic/eslint-plugin": "2.12.1",
     "@types/cors": "2.8.17",
     "@types/eslint__js": "8.42.3",
-    "@types/express": "5.0.0",
+    "@types/express": "5.0.1",
     "@types/morgan": "1.9.9",
     "@types/node": "22.10.5",
     "@types/supertest": "6.0.2",
